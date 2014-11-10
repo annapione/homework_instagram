@@ -1,0 +1,14 @@
+<h1>Photo Number <%= @photo_number %></h1>
+
+<img src="<%= @photo_source %>" width="400">
+<p><%= @photo_caption %></p>
+<p></p>
+<p>Source: <%= @photo_source %></p>
+
+<p>
+  <a href="http://localhost:3000/edit_photo_form/<%= @photo_number %>">Edit photo</a>
+</p>
+<p>
+  Return to
+  <a href="http://localhost:3000">home page</a>
+</p>
